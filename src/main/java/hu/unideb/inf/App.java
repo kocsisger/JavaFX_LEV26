@@ -23,6 +23,7 @@ public class App extends Application {
         //First change
         //dfghdfghd
         //Módosítás
+        //ALMA
     }
 
     static void setRoot(String fxml) throws IOException {
