@@ -69,21 +69,26 @@
                                     <Font size="25.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="nameLabel" text="Label" GridPane.columnIndex="2">
+                              <Label fx:id="nameLabel" GridPane.columnIndex="2">
                                  <font>
                                     <Font size="25.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="creditsLabel" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                              <Label fx:id="creditsLabel" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="25.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="dateOfBirthLabel" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                              <Label fx:id="dateOfBirthLabel" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                  <font>
                                     <Font size="25.0" />
                                  </font>
                               </Label>
+                              <Button mnemonicParsing="false" onAction="#handleChangeButtonPressed" text="Change" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Button>
                            </children>
                         </GridPane>
                      </children>
